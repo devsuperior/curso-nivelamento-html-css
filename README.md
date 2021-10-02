@@ -1,4 +1,4 @@
-# ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Minicurso HTML e CSS
+# ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Curso Nivelamento HTML e CSS
 >  Aprenda de forma rápida os principais fundamentos de HTML e CSS para se preparar para trabalhar com frameworks front end
 
 ## Realização
