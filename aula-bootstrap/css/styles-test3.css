@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #ddd;
+  margin: 0;
+}
+
+.title-container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.buttons-container {
+    margin-top: 20px;
+}

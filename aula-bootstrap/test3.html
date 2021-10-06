@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aula Bootstrap</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles-test3.css" />
+  </head>
+  <body>
+    <header>
+      <div class="text-center title-container">
+        <h1>Digite seus dados</h1>
+      </div>
+    </header>
+    <main>
+      <section class="container form-container">
+        <form action="#">
+          <div class="row">
+            <div class="col-md-6">
+              <label for="name">Nome</label>
+              <input
+                class="form-control"
+                type="text"
+                id="name"
+                placeholder="Digite seu nome"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="pass">Senha</label>
+              <input
+                class="form-control"
+                type="password"
+                id="pass"
+                placeholder="Digite a senha"
+              />
+            </div>
+          </div>
+          <div class="buttons-container">
+            <button class="btn btn-primary" type="submit">Enviar</button>
+          </div>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
