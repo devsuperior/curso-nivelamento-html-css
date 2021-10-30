@@ -1,0 +1,262 @@
+/* ELEMENTS */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* CLASSES, IDS */
+
+.nav-container {
+  background-color: #cf3527;
+  height: 140px;
+  width: 100%;
+  padding: 20px;
+}
+
+.nav-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dsfood-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dsfood-logo img {
+  width: 40px;
+  height: 40px;
+}
+
+.dsfood-logo h1 {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.dsfood-nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.dsfood-nav-right p {
+  margin: 0 15px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  display: none;
+}
+
+.dsfood-btn-default {
+  padding: 0 20px;
+  height: 35px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  color: #6a6a6a;
+  background-color: #f8f8f8;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.dsfood-btn-default:hover {
+  background-color: #fff;
+}
+
+.dsfood-btn-default:active {
+  background-color: #f8f8f8;
+}
+
+.dsfood-category-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dsfood-category-container {
+  position: relative;
+  top: -30px;
+  margin-bottom: 10px;
+}
+
+.dsfood-btn-category {
+  padding: 0;
+  width: 120px;
+  height: 60px;
+  background-color: #ffb647;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.dsfood-btn-category:hover {
+  background-color: #ffbb55;
+}
+
+.dsfood-btn-category:active {
+  background-color: #ffb647;
+}
+
+.dsfood-btn-category-ml {
+  margin-left: 20px;
+}
+
+.dsfood-btn-category-mr {
+  margin-right: 20px;
+}
+
+.dsfood-catalog-section {
+  width: 100%;
+  padding: 0 20px;
+}
+
+.dsfood-catalog-container {
+  width: 100%;
+}
+
+.dsfood-catalog-item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.dsfood-catalog-item-image {
+  width: 90px;
+  height: 90px;
+  border-radius: 4px 0 0 4px;
+}
+
+.dsfood-catalog-item-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+  background-color: #f0eff4;
+  padding: 8px 20px;
+  border-radius: 0 4px 4px 0;
+}
+
+.dsfood-catalog-item-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #3d3d3d;
+}
+
+.dsfood-catalog-item-description {
+  margin: 0;
+  font-size: 10px;
+  font-weight: 400;
+  color: #3d3d3d;
+}
+
+.dsfood-catalog-item-price {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #5c9f43;
+}
+
+@media (min-width: 576px) {
+  .nav-container {
+    padding: 20px 40px;
+  }
+
+  .dsfood-catalog-item-image {
+    width: 110px;
+    height: 110px;
+  }
+
+  .dsfood-catalog-section {
+    padding: 0 40px;
+  }
+
+  .dsfood-catalog-item-title {
+    font-size: 18px;
+  }
+
+  .dsfood-catalog-item-description {
+    font-size: 12px;
+  }
+
+  .dsfood-catalog-item-price {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-main {
+    max-width: 856px; /* -20 margin, -20 space-around*/
+    margin: 0 auto;
+  }
+
+  .dsfood-category-container {
+    top: -40px;
+  }
+
+  .dsfood-btn-category {
+    width: 160px;
+    height: 80px;
+  }
+
+  .dsfood-btn-category-ml {
+    margin-left: 40px;
+  }
+
+  .dsfood-btn-category-mr {
+    margin-right: 40px;
+  }
+
+  .dsfood-catalog-container {
+    max-width: 896px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .dsfood-catalog-item {
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    margin: 0 10px 30px 10px;
+  }
+
+  .dsfood-catalog-item-image {
+    width: 260px;
+    height: 260px;
+    border-radius: 4px 4px 0 0;
+  }
+
+  .dsfood-catalog-item-details-container {
+    border-radius: 0 0 4px 4px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-main {
+    max-width: 896px;
+    margin: 0 auto;
+  }
+
+  .dsfood-catalog-container {
+    max-width: 896px;
+    margin: 0 auto;
+    justify-content: space-between;
+  }
+
+  .dsfood-catalog-item {
+    margin: 0 0 30px 0;
+  }
+}
