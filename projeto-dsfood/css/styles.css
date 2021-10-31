@@ -48,10 +48,6 @@ body {
 }
 
 .dsfood-nav-right p {
-  margin: 0 15px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 400;
   display: none;
 }
 
@@ -199,6 +195,14 @@ body {
   .nav-main {
     max-width: 856px; /* -20 margin, -20 space-around*/
     margin: 0 auto;
+  }
+
+  .dsfood-nav-right p {
+    margin: 0 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    display: unset;
   }
 
   .dsfood-category-container {
