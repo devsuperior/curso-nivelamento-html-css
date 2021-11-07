@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loja Top</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1>Loja Top</h1>
+      </nav>
+    </header>
+    <main>
+      <section id="signup">
+        <h2>Cadastro</h2>
+        <form action="obrigado.html">
+          
+          <div>
+            <label for="ctrl-name">Nome</label>
+            <input id="ctrl-name" type="text" name="name" placeholder="Digite seu nome">
+          </div>
+
+          <div>
+            <label for="ctrl-email">Email</label>
+            <input id="ctrl-email" type="email" name="email" placeholder="Digite seu email">
+          </div>
+
+          <div>
+            <label for="ctrl-password">Senha</label>
+            <input id="ctrl-password" type="password" name="password">
+          </div>
+
+          <div>
+            <label for="ctrl-city">Cidade</label>
+            <select name="area" id="ctrl-city">
+              <option value="1">São Paulo</option>
+              <option value="2">Recife</option>
+              <option value="3">Porto Alegre</option>
+            </select>
+          </div>
+
+          <div>
+            <label for="ctrl-level">Escolaridade</label>
+            <div id="ctrl-level">
+              <input type="radio" id="ctrl-level-1" name="level">
+              <label for="ctrl-level-1">Fundamental</label><br>
+              <input type="radio" id="ctrl-level-2" name="level">
+              <label for="ctrl-level-2">Médio</label><br>
+              <input type="radio" id="ctrl-level-2" name="level">
+              <label for="ctrl-level-3">Superior</label>
+            </div>
+          </div>
+
+          <div>
+            <label for="ctrl-languages">Linguagens que conhece</label>
+            <div id="ctrl-languages">
+              <input type="checkbox" id="ctrl-languages-java" name="language1">
+              <label for="ctrl-languages-java">Java</label>
+              <input type="checkbox" id="ctrl-languages-csharp" name="language2">
+              <label for="ctrl-languages-csharp">C#</label>
+              <input type="checkbox" id="ctrl-languages-javascript" name="language3">
+              <label for="ctrl-languages-javascript">JavaScript</label>
+            </div>
+          </div>
+
+          <input type="submit" value="Submit">
+          <input type="reset">
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
