@@ -1,0 +1,195 @@
+/* ELEMENTS */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #8be8f4;
+  text-decoration: none;
+}
+
+header {
+  background-color: #131a22;
+  color: #eee;
+  height: 100px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+
+footer {
+  background-color: #131a22;
+  color: #eee;
+  height: 200px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  min-height: 200px;
+  padding: 40px;
+}
+
+/* CLASSES, IDS */
+
+.nav-main {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-main h1 {
+  font-size: 30px;
+}
+
+.menu-items {
+  display: none;
+}
+
+.menu-items li {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.nav-brand {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.section-categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #232f3e;
+}
+
+.section-categories h2 {
+  color: #eb8f05;
+}
+
+.categories-list {
+  margin-top: 20px;
+  color: #d2d2d2;
+  list-style-type: none;
+}
+
+.categories-list li {
+  margin-bottom: 10px;
+}
+
+.section-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ccc;
+}
+
+.section-titles h2 {
+  margin-bottom: 60px;
+  color: #555;
+}
+
+.title-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.title-card-img {
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+.title-card-description {
+  background-color: #ddd;
+  width: 300px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 0 0 10px 10px;
+}
+
+.title-price {
+  color: #5aa04e;
+  font-weight: 700;
+  margin-top: 10px;
+  font-size: 28px;
+}
+
+.title-price span {
+  font-size: 18px;
+}
+
+.section-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #232f3e;
+  color: #d2d2d2;
+}
+
+.section-about h2 {
+  color: #eb8f05;
+}
+
+.section-about h3 {
+  margin: 15px 0;
+}
+
+.section-about p {
+  text-align: center;
+}
+
+.footer-content {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-content h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-content a {
+  font-size: 12px;
+}
+
+.footer-content address {
+  font-size: 12px;
+}
+
+@media(min-width: 576px) {
+  .menu-items {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+
+  .title-card {
+    flex-direction: row;
+  }
+
+  .title-card-img {
+    width: 200px;
+    border-radius: 10px 0 0 10px;
+  }
+
+  .title-card-description {
+    border-radius: 0 10px 10px 0;
+  }
+}
