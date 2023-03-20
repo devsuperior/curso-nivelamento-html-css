@@ -1,5 +1,5 @@
 # ![DevSuperior logo](https://raw.githubusercontent.com/devsuperior/bds-assets/main/ds/devsuperior-logo-small.png) Curso Nivelamento HTML e CSS
->  Aprenda de forma rápida os principais fundamentos de HTML e CSS para se preparar para trabalhar com frameworks front end
+>  Aprenda de forma rápida os principais fundamentos de HTML e CSS para se preparar para trabalhar com frameworks front end, e também crie seus primeiros projetos de portfólio para seu currículo.
 
 ## Realização
 [DevSuperior - Escola de programação](https://devsuperior.com.br)
